@@ -1,7 +1,7 @@
 name: Atmo Morning
 on:
   schedule:
-    - cron: "5 6 * * *"
+    - cron: "3 6 * * *"
   workflow_dispatch: {}  # ручной запуск
 jobs:
   post:
