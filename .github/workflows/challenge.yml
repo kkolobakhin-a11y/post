@@ -1,7 +1,7 @@
 name: Challenge
 on:
   schedule:
-    - cron: "3 12 * * *"
+    - cron: "3 15 * * *"
   workflow_dispatch: {}  # ручной запуск
 jobs:
   post:
