@@ -7,7 +7,7 @@ Rotation: by day-of-year + deterministic salt per slot -> no near repeats.
 Secrets (GitHub):
   - BOT_TOKEN
   - CHANNEL_ID   (e.g., @your_channel or numeric id)
-  - BOT_LINK     (for CTA templates: {link})
+  - BOT_LINK     (for CTA templates: [BOT_LINK])
 """
 
 API_URL = "https://api.telegram.org/bot{token}/sendMessage"
